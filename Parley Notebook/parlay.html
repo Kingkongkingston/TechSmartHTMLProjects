@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA Parlay Neon</title>
+    <link rel="stylesheet" href="parlay.css" />
+</head>
+
+<body>
+    <div class="neon-app">
+        <header>
+            <h1>🏀 NBA Parlay Tracker</h1>
+            <p>Keep Track of your Parlay Ideas!</p>
+        </header>
+
+        <div class="main-content">
+            <div class="left-side">
+                <div class="form-card">
+                    <div class="input-box">
+                        <input type="text" id="playerName" placeholder="Enter Player Name" />
+                    </div>
+                    <div class="input-grid">
+                        <input type="text" id="statistic" placeholder="Stat (e.g. PTS)" />
+                        <input type="number" id="value" placeholder="Value" />
+                        <input type="text" id="overUnder" placeholder="O/U" />
+                        <button id="submitBtn" class="neon-btn">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="stats-box">
+                    <h3>📋 Your Parlays</h3>
+                    <div id="parlaysList" class="parlay-display"></div>
+                    <button id="clearBtn" class="neon-btn">Clear All</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-strip">
+            <img src="https://athlonsports.com/.image/ar_1:1,c_fill,cs_srgb,q_auto:good,w_1200/MjA4NDc3OTE2ODI3MjMxNDA1/usatsi_23968231.jpg"
+                alt="Steph Curry" class="neon-img" />
+            <img src="https://static01.nyt.com/images/2020/08/05/sports/03nba-morant-lede/03nba-morant-lede-mediumSquareAt3X.jpg"
+                alt="Ja Morant" class="neon-img" />
+        </div>
+
+        <div class="warning">
+            🚨 Need help? Call 1-800-GAMBLER.
+        </div>
+
+        <script src="parlay.js"></script>
+    </div>
+</body>
+
+</html>
